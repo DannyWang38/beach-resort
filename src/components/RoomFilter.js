@@ -24,7 +24,7 @@ export default function RoomFilter() {
         rooms
     }=context
 
-    // console.log(context);
+    console.log(context);
 
     //get unique types
     let types=getUnique(rooms,'type')
